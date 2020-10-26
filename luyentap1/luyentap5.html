@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var biengia = 0;
+        var fib = 1;
+        var total = 0;
+        var counter = 0;
+        
+       
+        do {
+            fib = fib + biengia
+            biengia = fib - biengia
+            document.write(fib) + document.write(" ")
+            total += fib;
+            counter ++;
+        }
+            while (counter <20)
+            alert("Tổng 20 số fib đầu là " + total)
+            
+        
+        
+    </script>
+</body>
+</html>

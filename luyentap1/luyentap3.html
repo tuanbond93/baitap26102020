@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var fib1 = 1;
+        var fib2 = 1;
+        var counter = 0;
+        document.write(fib1) + document.write(" ") + document.write(fib2) + document.write(" ")
+        do {
+            fib1 = fib1 + fib2
+            fib2 = fib2 + fib1
+            document.write(fib1) + document.write(" ") + document.write(fib2) + document.write(" ")
+            counter++ ;
+        }
+            while (counter < 9)
+            alert("20 số đầu tiên đã xong")
+            
+        
+    </script>
+</body>
+</html>

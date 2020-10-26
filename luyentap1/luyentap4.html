@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var biengia = 0;
+        var fib = 1;
+        
+       
+        do {
+            fib = fib + biengia
+            biengia = fib - biengia
+            document.write(fib) + document.write(" ")
+            
+        }
+            while (fib %5 !== 0)
+            alert("Số fib đầu tiên chia hết cho 5 là " + fib)
+            
+        
+        
+    </script>
+</body>
+</html>

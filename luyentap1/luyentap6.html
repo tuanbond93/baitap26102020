@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var so = 0;
+        var counter = 0;
+        var total = 0;
+        do {
+            so ++;
+            do {
+            so ++;
+            }
+            while (so %7 !== 0) 
+            counter++;
+            total += so;
+            document.write(so) + document.write(" ")
+        }
+        while (counter < 7)
+            alert("Tổng 30 số đầu tiên chia hết cho 7 là: " + total)
+        
+    </script>
+</body>
+</html>

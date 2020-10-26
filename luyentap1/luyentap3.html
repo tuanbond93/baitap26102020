@@ -7,19 +7,22 @@
 </head>
 <body>
     <script>
-        var fib1 = 1;
-        var fib2 = 1;
+        var biengia = 0;
+        var fib = 1;
         var counter = 0;
-        document.write(fib1) + document.write(" ") + document.write(fib2) + document.write(" ")
+       
         do {
-            fib1 = fib1 + fib2
-            fib2 = fib2 + fib1
-            document.write(fib1) + document.write(" ") + document.write(fib2) + document.write(" ")
+            fib = fib + biengia
+            biengia = fib - biengia
+            document.write(fib) + document.write(" ")
             counter++ ;
         }
-            while (counter < 9)
+            while (counter < 20)
             alert("20 số đầu tiên đã xong")
             
+        do {
+            
+        }
         
     </script>
 </body>

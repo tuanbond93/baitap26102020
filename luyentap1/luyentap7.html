@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var so = 0;
+        var count = 0;
+        do {
+            so++
+            count++
+            if (so % 3 == 0 && so % 5 == 0) {
+                document.write(so) + document.write(" FizzBuzz") + document.write('<br/>');
+            }
+        
+            else {
+                if (so % 3 == 0) {
+                    document.write(so) + document.write(" Fizz") + document.write('<br/>');
+                }
+                else {
+                    if (so % 5 == 0) {
+                        document.write(so) + document.write(" Buzz") + document.write('<br/>');
+                    }
+                    else document.write(so) + document.write('<br/>');
+                }
+            }
+        }  
+        while (count < 100) 
+                    alert("Hoanthanh");
+            
+          
+        
+        
+    </script>
+</body>
+
+</html>
